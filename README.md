@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Car Workshop
 
-## Getting Started
+Um projeto desenvolvido em **Next.js 15**, com **React 19**, **TailwindCSS 4**, formulários com **React Hook Form + Zod**, animações com **GSAP** e carrosséis usando **Keen Slider**.
 
-First, run the development server:
+![Portfolio](/src/assets/background.png)
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+* **Next.js 15.3.3**
+* **React 19** e **React DOM 19**
+* **TailwindCSS 4.1**
+* **GSAP + @gsap/react**
+* **Keen Slider**
+* **React Hook Form** + **Zod**
+* **Phosphor Icons**
+* **Hamburger React**
+* **Biome** (lint/format)
+
+## 📦 Scripts Disponíveis
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm dev       # Inicia o servidor de desenvolvimento (Turbopack)
+pnpm build     # Gera build de produção
+pnpm start     # Inicia a aplicação em produção
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Estrutura Geral do Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+car-workshop/
+ ├─ app/               # Rotas, layouts e páginas
+ ├─ components/        # Componentes reutilizáveis
+ ├─ public/            # Assets estáticos
+ ├─ package.json
+ └─ tailwind.config.js
+```
 
-## Learn More
+## ⚙️ Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+* 🔧 Interface moderna e responsiva para oficina automotiva
+* 🧾 Formulários validados com **Zod**
+* 🔄 Carrosséis fluidos com **Keen Slider**
+* 🎨 Animações suaves utilizando **GSAP**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📥 Instalação
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+pnpm install
+```
 
-## Deploy on Vercel
+## ▶️ Rodando Localmente
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+pnpm dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Build de Produção
+
+```bash
+pnpm build
+pnpm start
+```
+
+## 📄 Licença
+
+Projeto sob **ISC License**.
+
+---
+
+Feito com 💙 utilizando React + Vite.
