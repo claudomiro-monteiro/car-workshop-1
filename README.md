@@ -69,4 +69,4 @@ Projeto sob **ISC License**.
 
 ---
 
-Feito com 💙 utilizando React + Vite.
+Feito com 💙 utilizando React + Nextjs 15.
