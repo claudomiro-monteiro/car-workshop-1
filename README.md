@@ -1,6 +1,6 @@
 # Car Workshop
 
-Um projeto desenvolvido em **Next.js 15**, com **React 19**, **TailwindCSS 4**, formulários com **React Hook Form + Zod**, animações com **GSAP** e carrosséis usando **Keen Slider**.
+Um projeto desenvolvido em **Next.js 15**, com **React 19**, **TailwindCSS 4**, formulários com **React Hook Form + Zod**, animações com **GSAP** e carousel usando **Keen Slider**.
 
 ![Portfolio](/src/assets/background.png)
 
